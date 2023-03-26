@@ -1,0 +1,18 @@
+main
+	__CC2DW
+		____DoICP
+	I2C_init
+	I2C_update_time
+		I2C_init
+		Mul_16X16_U
+	SPI_init
+	SPI_tx
+	SPI_update
+		SPI_init
+		SPI_tx
+	Mul_8X8_U
+	Div_16x16_S
+		Div_16x16_S_L
+	I2C_update_rtc
+		I2C_init
+	Mul_16X16_U
