@@ -6,7 +6,7 @@ Clock which can sync time from Internet and uses RTC for Timekeeping
 
 The Clock uses PIC16F887 chip (compatible with all PIC16F88x series) as the main microcontroller. Internet Time is obtained using ESP8266-01. Time can also be Set Manually using switches. Using RTC DS1307 timekeeping is achieved. Time is shown in 4 Digit 7-segment-displays driven by MAX7219. The Brightness of the display can be adjusted using a Potentiometer.
 
-### No In-Built library functions are used while programming PIC. All the peripherals are controlled manually by manipulating the specific peripheral registers for achieving a functionality like I2C, UART etc.
+### No library functions are used while programming PIC. All the peripherals are controlled manually by manipulating the specific peripheral registers for achieving a functionality like I2C, UART etc.
 
 <img src="https://github.com/ashvnv/PIC16F-Internet-Clock/blob/main/Images/Internet%20Clock.jpg" width="500" />
 
