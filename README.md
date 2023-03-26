@@ -1,7 +1,8 @@
 # PIC16F-Internet-Clock
 Clock which can sync time from Internet and uses RTC for Timekeeping
 
-![GitHub](https://img.shields.io/github/license/ashvnv/PIC16F-Internet-Clock)
+![MIT License](https://img.shields.io/github/license/ashvnv/PIC16F-Internet-Clock)
+![Language: Embedded C](https://img.shields.io/badge/language-Embedded%20C-red)
 
 The Clock uses PIC16F887 chip (compatible with all PIC16F88x series) as the main microcontroller. Internet Time is obtained using ESP8266-01. Time can also be Set Manually using switches. Using RTC DS1307 timekeeping is achieved. Time is shown in 4 Digit 7-segment-displays driven by MAX7219. The Brightness of the display can be adjusted using a Potentiometer.
 
@@ -22,6 +23,22 @@ The Clock uses PIC16F887 chip (compatible with all PIC16F88x series) as the main
 | QL-PROG for QL-2006 | 2.37 | PIC Burner |
 | Proteus Design Suite | 8.9 SP2 | Simulation |
 | Arduino IDE | 1.8.19 | ESP8266-01 Programming |
+
+## Project Directory Structure
+- Block Diagram & Firmware Flowchart 
+  - Contains the Block diagram of the project and algorithm flowchart
+- Datasheets
+  - Contains the datasheet of all the components used
+- Final Simulation (OVERALL)
+  - Proteus Simulation File of the project
+- Firmware
+  - mikroC PIC firmware and ESP8266-01 Arduino IDE firmware
+- Images
+  - Some images of the project
+- Documentation.pdf
+  - Detailed Implementation
+- Test Report
+  - Project functionality testing
 
 ## Block Diagram
 <img src="https://github.com/ashvnv/PIC16F-Internet-Clock/blob/main/Block%20Diagrams%20%26%20Firmware%20Flowchart/Internet%20Clock%20BD.jpg" width="500" />
