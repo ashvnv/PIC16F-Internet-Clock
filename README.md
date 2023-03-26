@@ -37,7 +37,7 @@ The Clock uses PIC16F887 chip (compatible with all PIC16F88x series) as the main
   - Some images of the project
 - Documentation.pdf
   - Detailed Implementation
-- Test Report
+- Test Report.pdf
   - Project functionality testing
 
 ## Block Diagram
